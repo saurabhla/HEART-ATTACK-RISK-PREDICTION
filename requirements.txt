@@ -1,0 +1,24 @@
+# Heart Attack Prediction Project - Requirements
+# Author Saurabh Lagad
+# Description Python packages required to run the
+# Heart attack prediction project using machine learning and SMOTE for class balancing.
+
+# Core Libraries
+
+numpy=1.21                    # Fundamental package for numerical operations
+pandas=1.5                    # Data manipulation and analysis
+joblib=1.2                    # For savingloading ML models
+
+# Data Visualization
+
+matplotlib=3.5                # Plotting library (used for charts, confusion matrices)
+seaborn=0.11                  # Statistical data visualization (used for heatmaps, pairplots)
+
+# Scikit-learn & ML Algorithms
+
+scikit-learn==1.2.2            # Core ML library (specific version required for SMOTE compatibility)
+imbalanced-learn==0.10.1       # Tools for handling imbalanced datasets (includes SMOTE)
+
+# Notes
+
+# - The specified version of scikit-learn (1.2.2) is known to be compatible with imbalanced-learn 0.10.1.
